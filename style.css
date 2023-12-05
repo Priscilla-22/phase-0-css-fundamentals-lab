@@ -3,3 +3,36 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header{
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+nav a {
+  align-content: center;
+  padding-right: 10px;
+  background-color: grey;
+}
+
+#featured-property  {
+  text-align: center;
+}
+
+#featured-property p{
+  width:800px ;
+  margin:10px auto;
+}
+
+#details {
+  display: flex;
+  text-align: center;
+  background-color: orange;
+}
+
+#details > div {
+  float:left;
+  width: 25%;
+}
